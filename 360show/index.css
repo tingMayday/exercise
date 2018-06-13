@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #96004a;
+}
+ul{
+    list-style: none;
+}
+#show .list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#show .list li{
+    display: none;
+}
+#show .list li.current{
+    display: block;
+}
