@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+	font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+}
+
+.counter{
+	width: 284px;
+	height: 260px;
+	background: #97cceb;
+	border-bottom: 5px solid #1f98c7;
+	border-radius: 2px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.clear{
+	background: #fe9ea9;
+	color: #fff !important;
+	box-shadow: 0 3px 0 0 #e07f93;
+}
+
+.clear:hover{
+	box-shadow: none;
+}
+
+input[type=text]{
+	width: 203px;
+	height: 30px;
+	border-radius: 3px;
+	box-shadow: 0 -3px 0 0 #5a8595;
+    background: #7ba6b7;
+    border: none;
+    color: #fff;
+    padding-bottom: 4px;
+/*    font-size: 18px;*/
+}
+
+.row{
+	margin: 15px auto;
+}
+
+input[type=button]{
+	width: 65px;
+	height: 34px;
+	display: inline-block;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 3px;
+	color: #888;
+	border: none;
+}
+
+.keys .row input[type=button]{
+	background: #fff;
+	box-shadow: 0 3px 0 0 #6e9dad;
+}
+
+.keys .row input[type=button]:hover{
+	box-shadow: none;
+}
+
+.keys .row input.equal{
+	background: #f0fd91;
+}
